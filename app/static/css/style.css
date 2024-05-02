@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #202020;
+    background-color: #111010;
     color:white;
 }
 
@@ -12,19 +12,33 @@ header {
     padding: 20px;
 }
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .navbar-brand{
+    color: #e0d8d8;
+    font-size:20px;
+    font-weight: bold;
+}
 nav ul {
     list-style-type: none;
+    display:flex;
     margin: 0;
     padding: 0;
 }
-
+.source-link{
+    color: #258eb8;
+    text-decoration: none;
+}
 nav ul li {
     display: inline;
     margin-right: 10px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: #e0d8d8;
     text-decoration: none;
 }
 
@@ -34,9 +48,45 @@ main {
 
 footer {
     background-color: #000000;
-    color: #fff;
-    padding: 10px;
+    color: #e0d8d8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 100px;
+
+}
+
+.centered-circle-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
+}
+
+.centered-circle-image img {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+
+.big-heading {
+    padding-top: 20px;
+    font-size: 48px;
     text-align: center;
+    margin-top: 20px;
+    color:#e0d8d8;
+    font-weight: bold;
+
+}
+
+.small-heading{
+    padding-top: 20px;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+    color:#e0d8d8;
+    
 }
 
 html, body {
@@ -53,6 +103,22 @@ html, body {
 
 main {
     flex: 1;
+}
+
+.social-links {
+    padding-top: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    color: #e0d8d8; 
+    font-size: 24px; 
+}
+
+.social-links a:hover {
+    color: #e0d8d8; 
 }
 
 
