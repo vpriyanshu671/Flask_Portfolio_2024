@@ -55,8 +55,24 @@ footer {
     padding-inline: 100px;
 
 }
-
+.intro-banner {
+    padding-top: 20px;
+    background-color: white;
+    color: #3e3e3e;
+    padding-left: 100px;
+    font-size: 24px;
+    text-align: left;
+    padding-bottom: 20px;
+    
+}
+.hey {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    
+}
 .centered-circle-image {
+    padding-top: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +125,7 @@ main {
     padding-top: 40px;
     text-align: center;
     margin-top: 20px;
+    padding-bottom: 300px;
 }
 
 .social-links a {

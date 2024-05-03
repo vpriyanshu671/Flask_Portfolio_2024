@@ -14,9 +14,9 @@
                 <span class ="navbar-brand">Priyanshu Verma</span>
                 <ul>
                     <li><a href="{{ url_for('index') }}">Home</a></li>
-                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    
                     <li><a href="{{ url_for('projects') }}">Projects</a></li>
-                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                    <li><a href="{{ url_for('cv') }}">CV</a></li>
                 </ul>
             </nav>
         </header>
@@ -30,6 +30,7 @@
             <a href="https://github.com/vpriyanshu671/Flask_Portfolio_2024" class = "source-link">Website Source Code</a>
         </footer>
     </div>
+    
 
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-links@2.12.0/tsparticles.preset.links.bundle.min.js" integrity="sha256-Kq9IblhtnUOu75DRD4BIgJ4p4/7JUMMy6eXI/YcTo0c=" crossorigin="anonymous" async="" defer="" onload="setupParticlesBackground()"></script>
