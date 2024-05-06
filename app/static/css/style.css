@@ -305,3 +305,67 @@ main {
     color: rgb(9, 138, 185); 
 }
 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.project-card {
+    background-color: #18344A;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    z-index: 1;
+    border-radius: 10px;
+}
+.cardcolor {
+    background-color: #2278ba;
+}
+    
+    
+ 
+
+.project-card:hover {
+    transform: scale(1.05);
+}
+
+.project-card img {
+    width: 50%;
+    height: 50%;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.project-card h2 {
+    text-align: left;
+}
+
+.project-card p {
+    text-align: justify;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #ffffff;
+    color: #0a74db;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #f0f0f0;
+}
