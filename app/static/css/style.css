@@ -462,7 +462,7 @@ main {
 
 .Resume_image img {
     width: 100%;
-    display: block; /* Ensures that the image takes up the full width of its container */
+    display: block;
 }
 
 .Download_button {
@@ -478,7 +478,7 @@ main {
     background: none;
     border: none;
     cursor: pointer;
-    font-size: 1.5em; /* Adjust size as needed */
+    font-size: 1.5em; 
 }
 
 
