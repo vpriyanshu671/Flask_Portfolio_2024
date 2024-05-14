@@ -1,7 +1,17 @@
 {% extends 'base.html' %}
 
 {% block title %}CV | Priyanshu Verma{% endblock %}
+
 {% block content %}
-    <h1>CV</h1>
-    
+<div class="Resume_container">
+    <div class="Resume_image">
+        <img src="{{ url_for('static', filename='images/Resume_2024_page-0001.jpg') }}" alt="Resume_1">
+        <a href="{{ url_for('static', filename='pdf/Resume_2024.pdf') }}" download class="Download_button">
+            <button><i class="fa-solid fa-file-arrow-down"></i></button>
+        </a>
+        <img src="{{ url_for('static', filename='images/Resume_2024_page-0002.jpg') }}" alt="Resume_2">
+    </div>
+</div>
 {% endblock %}
+
+

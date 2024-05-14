@@ -449,3 +449,36 @@ main {
 .button:hover {
     background: #f0f0f0;
 }
+
+.Resume_container {
+    display: flex;
+    justify-content: center;
+}
+
+.Resume_image {
+    position: relative;
+    width: 50%;
+}
+
+.Resume_image img {
+    width: 100%;
+    display: block; /* Ensures that the image takes up the full width of its container */
+}
+
+.Download_button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.Download_button button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em; /* Adjust size as needed */
+}
+
+
