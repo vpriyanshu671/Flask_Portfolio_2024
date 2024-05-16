@@ -28,16 +28,6 @@ Flask Portfolio 2024 is a web application built using the Flask framework. This 
 - **Dynamic Content**: Easily update and manage your portfolio content.
 - **Modern Technologies**: Built with Flask, HTML5, CSS3, and JavaScript.
 
-## Project Structure
-Flask_Portfolio_2024/
-├── flaskenv/ # Virtual environment directory
-├── static/ # Static files (CSS, JS, images)
-├── templates/ # HTML templates
-├── run.py # Main application file
-├── requirements.txt # Python dependencies
-├── README.md # Project documentation
-└── vercel.json # Vercel deployment configuration
-
 
 ## Getting Started
 
