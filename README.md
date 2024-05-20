@@ -1,6 +1,16 @@
 # Flask Portfolio 2024
 
-![Project Banner](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/d471d842-3a7b-4eac-8373-0bc17aac0734)
+## Home
+![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/18e9b011-1a96-4945-9b10-5b74720da10d)
+
+## Timeline
+![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/2e6d1281-65b9-441e-b065-cc2d96f67c75)
+
+## Projects
+![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/88dd91a2-c6d0-4cc8-904c-49dcbb681817)
+
+## CV
+![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/df063440-b240-49ee-be34-874a0fa28eda)
 
 ## Table of Contents
 
