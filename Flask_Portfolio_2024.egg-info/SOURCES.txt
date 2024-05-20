@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+Flask_Portfolio_2024.egg-info/PKG-INFO
+Flask_Portfolio_2024.egg-info/SOURCES.txt
+Flask_Portfolio_2024.egg-info/dependency_links.txt
+Flask_Portfolio_2024.egg-info/entry_points.txt
+Flask_Portfolio_2024.egg-info/requires.txt
+Flask_Portfolio_2024.egg-info/top_level.txt
+app/__init__.py
+app/routes.py

@@ -1,0 +1,8 @@
+Flask
+Jinja2
+MarkupSafe
+Werkzeug
+blinder
+click
+itsdangerous
+wheel
