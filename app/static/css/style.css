@@ -231,7 +231,7 @@ main {
     position: absolute;
     left: 50%; 
     transform: translateX(-50%);
-}
+}  
 .content-point .square{
     width: 400px;
     height: 300px;
@@ -249,6 +249,11 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 20px;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-point .square:hover {
+    transform: scale(1.05);
 }
 
 @media (max-width:1000px){
@@ -279,6 +284,11 @@ main {
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 20px;
     overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.content-point .right-square:hover {
+    transform: scale(1.05);
 }
 
 @media (max-width:1000px){
