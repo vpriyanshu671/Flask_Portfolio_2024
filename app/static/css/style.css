@@ -264,7 +264,22 @@ main {
         height: 230px; 
     }
 }
-        
+
+@media (max-width: 480px) {
+    .content-point .square {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+
+    .content-point h3 {
+        font-size: 17px !important; 
+    }
+
+    .content-point p {
+        font-size: 12px !important;
+    }
+}
 
 
 .content-point .right-square {
@@ -300,6 +315,15 @@ main {
     }
 }
 
+@media (max-width: 480px) {
+    .content-point .right-square {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+}
+
+
 .content-point h3 {
     margin-bottom: 10px;
     font-size: 24px;
@@ -320,6 +344,17 @@ main {
     z-index: 2;
 }
 
+@media (max-width: 480px) {
+    .left-text-point,.right-text-point{
+        font-size: 10px;
+    }
+    .left-text-point {
+        right: calc(50% + 30px);
+    }
+    .right-text-point{
+        left: calc(50% + 30px);
+    }
+}
 
 
 
