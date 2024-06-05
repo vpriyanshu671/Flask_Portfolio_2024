@@ -55,6 +55,30 @@ footer {
     padding-inline: 100px;
 
 }
+
+
+@media (max-width: 400px) {
+    footer {
+        flex-direction: row;
+        align-items: space-between;
+        padding-inline:10px;
+        font-size: 14px;
+    }
+
+    footer p{
+        margin:0;
+        flex: 1;
+    }
+
+    .source-link {
+        font-size: 14px;
+        flex: 0;
+        white-space: nowrap;
+    }
+
+}
+
+
 .intro-banner {
     padding-top: 20px;
     background-color: white;
