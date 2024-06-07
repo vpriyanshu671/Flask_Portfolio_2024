@@ -400,10 +400,6 @@ main {
     .right-text-point{
         left: calc(50% + 30px);
     }
-    /* .contact-container{
-        text-align: left!important;
-        margin-left: 10px!important;
-    } */
 }
 
 
@@ -558,6 +554,12 @@ main {
     display: block;
 }
 
+@media (max-width: 480px) {
+   .Resume_image {
+        width: 100%;
+        height: auto;
+    }
+}
 .Download_button {
     position: absolute;
     top: 0;
