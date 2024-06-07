@@ -88,15 +88,24 @@
     </div>
     <div class="contact-container">
         <h2>Contact me</h2>
-        <div class="contact-email">
-            <span class="contact-label">Email:</span>
-            <a href="mailto:vpriyanshu671@gmail.com" class="email-link">vpriyanshu671@gmail.com</a>
-        </div>
-        <div class="contact-social-links">
-            <p>Instagram: <a href="https://www.instagram.com/vermapriyanshu_24" class="social-link">Instagram</a></p>
-            <p>Leetcode: <a href="https://leetcode.com/u/priyanshu671/" class="social-link">Leetcode</a></p>
-            <p>GitHub: <a href="https://github.com/vpriyanshu671" class="social-link">GitHub</a></p><br>
-            
+        <div class ="contact-details">
+            <div class ="contact-item">
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:vpriyanshu671@gmail.com">vpriyanshu671@gmail.com</a>
+            </div>
+
+            <div class ="contact-item">
+                <i class="fab fa-instagram"></i>
+                <a href="https://www.instagram.com/vermapriyanshu_24" target="_blank">Instagram</a>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-code"></i>
+                <a href="https://leetcode.com/u/priyanshu671/" target="_blank">Leetcode</a>
+            </div>
+            <div class="contact-item">
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/vpriyanshu671" target="_blank">Github</a>
+            </div>
         </div>
     </div>
     <div class ="cta-container">
@@ -107,8 +116,13 @@
             <a href="{{ url_for('cv') }}" class="cta-button">CV</a>
         </div>
     </div>
-            
+                
 {% endblock %}
+
+            
+
+        
+        
         
 
     
