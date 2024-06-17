@@ -111,6 +111,17 @@ footer {
     padding-bottom: 20px;
     
 }
+@media (max-width: 480px) {
+   .intro-banner {
+       font-size: 16px;
+    }
+}
+@media (max-width: 780px) {
+    .intro-banner {
+        font-size: 20px;
+     }
+ }
+        
 .hey {
     display: block;
     text-align: left;
@@ -586,7 +597,7 @@ main {
 }
 
 .cta-container h2 {
-    font-size: 32px;
+    font-size: 28px;
     margin-bottom: 20px;
 }
 
@@ -601,7 +612,7 @@ main {
 }
 
 .cta-container p {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: 30px;
 }
 
