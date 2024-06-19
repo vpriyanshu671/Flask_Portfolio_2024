@@ -11,27 +11,16 @@
 
 </style>
 
-<h1 style="color: rgb(36, 36, 36); text-align: center;">Personal and Professional Projects</h1>
+<h1 style="color: rgb(36, 36, 36); text-align: center;">Personal Projects</h1>
 <div class="container">
-    <div class="project-card">
+    <div class="project-card" onclick="window.open('https://github.com/vpriyanshu671/Flask_Portfolio_2024','_blank')">
         <img src="{{ url_for('static', filename='images/flask-main.png') }}" alt="Flask Logo">
         <h2>Portfolio</h2>
         <p>Created a portfolio website to showcase my skills in python, HTML, CSS, and JavaScript</p>
         
     </div>
-    <div class="project-card cardcolor">
-        <img src="https://diogotc.com/assets/icons/resumos-leic.svg" alt="Flask Logo" style="width: 100px; height: 100px; ">
-        <h2>Avartify 3D Model</h2>
-        <p>During my internship at Techsalo Infotech, I led the Avartify 3D model project, focusing on converting speech to text and vice versa. Leveraging LLM models and prompt engineering, I enhanced the model's contextual speech capabilities.</p>
-        
-    </div>
-    <div class="project-card cardcolor">
-        <img src="{{ url_for('static', filename='images/sqlassist.png') }}" alt="Flask Logo"
-            style="width: 30%; height: 30%;">
-        <h2>SQLAssist</h2>
-        <p>At Techsalo Infotech, I  worked on the SQLAssist Project as a backend developer in Python, creating Flask API routes ,Enabling data engineering solution using Google cloud Platform</p>
-        
-    </div>
+    
+    
 </div>
 
 {% endblock %}
