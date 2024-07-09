@@ -443,20 +443,25 @@ main {
     margin: 20px;
     width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
     z-index: 1;
     border-radius: 10px;
+    perspective: 1000px; 
 }
+
+.project-card-inner {
+    transition: transform 0.2s;
+    transform-style: preserve-3d; 
+}
+
+.project-card:hover .project-card-inner {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .cardcolor {
     background-color: #2278ba;
 }
     
-    
- 
-
-.project-card:hover {
-    transform: scale(1.05);
-}
 
 .project-card img {
     width: 50%;
