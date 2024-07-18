@@ -7,7 +7,8 @@
 ![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/2e6d1281-65b9-441e-b065-cc2d96f67c75)
 
 ## Projects
-![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/88dd91a2-c6d0-4cc8-904c-49dcbb681817)
+![image](https://github.com/user-attachments/assets/c4194516-22c8-4323-8b21-1f3ec5e64c62)
+
 
 ## CV
 ![image](https://github.com/vpriyanshu671/Flask_Portfolio_2024/assets/112311383/df063440-b240-49ee-be34-874a0fa28eda)
