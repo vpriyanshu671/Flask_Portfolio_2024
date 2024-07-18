@@ -8,18 +8,23 @@
         background-color: white;
         font-family: 'Roboto', Helvetica, sans-serif;
     }
+
 </style>
 
 <h1 style="color: rgb(36, 36, 36); text-align: center;">Personal Projects</h1>
-<div class="container">
-    <div class="project-card" onclick="window.open('https://github.com/vpriyanshu671/Flask_Portfolio_2024','_blank')">
-        <img src="{{ url_for('static', filename='images/flask-main.png') }}" alt="Flask Logo">
-        <h2>Portfolio</h2>
-        <p>Created a portfolio website to showcase my skills in python, HTML, CSS, and JavaScript</p>
+
+<div class="projects-container">
+    <div class="project">
+        <div class="project-text">
+            <h2>Project 1</h2>
+            <h3>Portfolio</h3>
+            <p>I have developed a comprehensive Portfolio website, which I have successfully hosted on Vercel. This project showcases my proficiency in HTML, CSS, JavaScript, and Flask. Creating a Portfolio website has always been a personal goal of mine, and I am proud to present this as one of my key personal projects. This website not only highlights my technical skills but also demonstrates my ability to deliver a fully functional and aesthetically pleasing web application.</p>
+        </div>
+        <div class="project-image">
+            <img src="{{ url_for('static', filename='images/Project1.png') }}" alt="Project 1 Image" style="--color:#4ECDC4">
+        </div>
     </div>
+    
 </div>
 
 {% endblock %}
-
-
-
